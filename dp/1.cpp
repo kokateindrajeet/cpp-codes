@@ -12,9 +12,9 @@ int profit(int i,vector<int>wt,vector<int>val,int c)
 }
 int main()
 {
-    vector<int> val = {5, 3, 9, 16};
+    vector<int> val = {5, 3, 7, 16};
     vector<int> wt = {1, 2, 8, 10};
     int c=8;
     cout<<profit(0,wt,val,c);
 
-}
+} 
