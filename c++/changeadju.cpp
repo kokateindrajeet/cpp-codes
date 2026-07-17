@@ -4,7 +4,7 @@ using namespace std;
 
 void swapAdjacent(vector<int>& arr)
 {
-    for (int i = 0; i + 1 < arr.size(); i += 2)
+    for (int i = 0; i+1  < arr.size(); i += 2)
     {
         swap(arr[i], arr[i + 1]);
     }
